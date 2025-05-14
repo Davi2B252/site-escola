@@ -80,7 +80,9 @@ body{
 }
 
 .estudantes-imagem {
-    width: 100px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
 }
 
 .estudantes-icone {
@@ -128,7 +130,7 @@ body{
     }
 
     .estudantes-todos {
-        grid-template-columns: repeat(auto-fit, minmax(150px, ifr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         padding: 0 16px;
     }
 }
