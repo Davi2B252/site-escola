@@ -80,9 +80,7 @@ body{
 }
 
 .estudantes-imagem {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
+    width: 100px;
 }
 
 .estudantes-icone {
